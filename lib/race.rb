@@ -27,7 +27,7 @@ private
 		@racers << Car.new
 		@racers << Car.new
 
-		@cars.first.accelerate(random_speed)
-		@cars.last.accelerate(random_speed)
+		@racers.first.accelerate(random_speed)
+		@racers.last.accelerate(random_speed)
 	end
 end
